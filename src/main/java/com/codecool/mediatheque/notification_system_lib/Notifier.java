@@ -1,0 +1,20 @@
+package com.codecool.mediatheque.notification_system_lib;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Notifier {
+
+    private List<NotificationDispatcher> notificationDispatchers = new ArrayList<>();
+
+    public void notify(Notification notification) {
+        for (NotificationDispatcher notificationDispatcher : notificationDispatchers) {
+            notificationDispatcher.dispatch(notification);
+        }
+    }
+
+    public void addSubscriber(NotificationDispatcher dispatcher) {
+        notificationDispatchers.add(dispatcher);
+    }
+
+}

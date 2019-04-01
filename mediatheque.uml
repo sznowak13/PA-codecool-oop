@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.codecool.mediatheque</OriginalElement>
+  <nodes>
+    <node x="1565.4286019536019" y="676.0">com.codecool.mediatheque.notification_system_lib.Notifier</node>
+    <node x="1182.4888736263733" y="1640.0">com.codecool.mediatheque.Controller.MainController</node>
+    <node x="612.5625" y="1274.0">com.codecool.mediatheque.Model.Warehouse</node>
+    <node x="458.70555046805055" y="1616.0">com.codecool.mediatheque.Model.WarehouseTest</node>
+    <node x="1564.8638736263733" y="1004.0">com.codecool.mediatheque.View.MenuScreen</node>
+    <node x="923.5624999999999" y="1274.0">com.codecool.mediatheque.Model.User</node>
+    <node x="0.0" y="1861.0">com.codecool.mediatheque.Mediatheque</node>
+    <node x="0.0" y="1016.0">com.codecool.mediatheque.Model.AudioBook</node>
+    <node x="1809.6549552299552" y="403.0">com.codecool.mediatheque.notification_system_lib.NotificationDispatcher</node>
+    <node x="1368.1111467236465" y="201.0">com.codecool.mediatheque.notification_system_lib.Notification</node>
+    <node x="350.29389499389504" y="379.0">com.codecool.mediatheque.Model.ItemStatus</node>
+    <node x="1412.493894993895" y="0.0">com.codecool.mediatheque.notification_system_lib.NotificationCode</node>
+    <node x="1591.6138736263733" y="1334.5">com.codecool.mediatheque.View.MainMenu</node>
+    <node x="1190.5625" y="1310.0">com.codecool.mediatheque.Model.IdGenerator</node>
+    <node x="250.29389499389504" y="532.0">com.codecool.mediatheque.Model.MediaItem</node>
+    <node x="210.5625" y="1016.0">com.codecool.mediatheque.Model.MusicAlbum</node>
+    <node x="1383.1138736263733" y="403.0">com.codecool.mediatheque.notification_system_lib.NotificationHandler</node>
+    <node x="959.2111467236466" y="1016.5">com.codecool.mediatheque.Model.UserRole</node>
+    <node x="1760.6138736263733" y="1322.0">com.codecool.mediatheque.View.ViewBrowser</node>
+    <node x="86.25975783475769" y="1178.0">com.codecool.mediatheque.Model.ItemBuilder</node>
+    <node x="412.5625" y="1016.0">com.codecool.mediatheque.Model.Movie</node>
+    <node x="2020.4286019536019" y="700.5">com.codecool.mediatheque.View.Showable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.codecool.mediatheque.Model.WarehouseTest" target="com.codecool.mediatheque.Model.Warehouse">
+      <point x="96.85714285714289" y="-100.0" />
+      <point x="668.5626933251934" y="1596.0" />
+      <point x="758.0625" y="1596.0" />
+      <point x="0.0" y="88.0" />
+    </edge>
+    <edge source="com.codecool.mediatheque.Model.WarehouseTest" target="com.codecool.mediatheque.Model.MediaItem">
+      <point x="32.28571428571422" y="-100.0" />
+      <point x="603.9912647537648" y="1596.0" />
+      <point x="602.0625" y="1596.0" />
+      <point x="602.0625" y="964.0" />
+      <point x="483.57167277167287" y="964.0" />
+      <point x="71.77777777777783" y="196.0" />
+    </edge>
+    <edge source="com.codecool.mediatheque.Controller.MainController" target="com.codecool.mediatheque.Model.IdGenerator">
+      <point x="-21.16666666666663" y="-76.0" />
+      <point x="1288.3222069597066" y="1596.0" />
+      <point x="1264.0625" y="1596.0" />
+      <point x="0.0" y="52.0" />
+    </edge>
+    <edge source="com.codecool.mediatheque.notification_system_lib.NotificationDispatcher" target="com.codecool.mediatheque.notification_system_lib.Notification">
+      <point x="0.0" y="-27.5" />
+      <point x="1936.6549552299552" y="349.0" />
+      <point x="1675.0111467236466" y="349.0" />
+      <point x="136.39999999999998" y="64.0" />
+    </edge>
+    <edge source="com.codecool.mediatheque.Controller.MainController" target="com.codecool.mediatheque.View.ViewBrowser">
+      <point x="63.5" y="-76.0" />
+      <point x="1372.9888736263733" y="1586.0" />
+      <point x="1917.6138736263733" y="1586.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="com.codecool.mediatheque.Controller.MainController" target="com.codecool.mediatheque.Model.Warehouse">
+      <point x="-105.83333333333337" y="-76.0" />
+      <point x="1203.6555402930398" y="1596.0" />
+      <point x="855.0625" y="1596.0" />
+      <point x="97.0" y="88.0" />
+    </edge>
+    <edge source="com.codecool.mediatheque.Model.AudioBook" target="com.codecool.mediatheque.Model.MediaItem">
+      <point x="-44.75" y="-40.0" />
+      <point x="44.75" y="964.0" />
+      <point x="268.2383394383394" y="964.0" />
+      <point x="-143.55555555555566" y="196.0" />
+    </edge>
+    <edge source="com.codecool.mediatheque.View.MainMenu" target="com.codecool.mediatheque.View.MenuScreen">
+      <point x="0.0" y="-27.5" />
+      <point x="1666.1138736263733" y="1158.0" />
+      <point x="1678.3638736263733" y="1158.0" />
+      <point x="-113.5" y="52.0" />
+    </edge>
+    <edge source="com.codecool.mediatheque.notification_system_lib.NotificationHandler" target="com.codecool.mediatheque.notification_system_lib.Notification">
+      <point x="0.0" y="-27.5" />
+      <point x="1558.6138736263733" y="359.0" />
+      <point x="1538.6111467236465" y="359.0" />
+      <point x="0.0" y="64.0" />
+    </edge>
+    <edge source="com.codecool.mediatheque.Model.MusicAlbum" target="com.codecool.mediatheque.Model.MediaItem">
+      <point x="-45.5" y="-40.0" />
+      <point x="256.0625" y="984.0" />
+      <point x="340.0161172161172" y="984.0" />
+      <point x="-71.77777777777783" y="196.0" />
+    </edge>
+    <edge source="com.codecool.mediatheque.Model.MusicAlbum" target="com.codecool.mediatheque.Model.ItemBuilder">
+      <point x="22.75" y="40.0" />
+      <point x="324.3125" y="1158.0" />
+      <point x="292.8153133903131" y="1158.0" />
+      <point x="37.55555555555543" y="-184.0" />
+    </edge>
+    <edge source="com.codecool.mediatheque.View.MenuScreen" target="com.codecool.mediatheque.View.Showable">
+      <point x="181.60000000000002" y="-52.0" />
+      <point x="1973.4638736263732" y="984.0" />
+      <point x="2094.928601953602" y="984.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="com.codecool.mediatheque.Model.AudioBook" target="com.codecool.mediatheque.Model.ItemBuilder">
+      <point x="67.125" y="40.0" />
+      <point x="156.625" y="1158.0" />
+      <point x="180.1486467236466" y="1158.0" />
+      <point x="-75.11111111111109" y="-184.0" />
+    </edge>
+    <edge source="com.codecool.mediatheque.Model.ItemBuilder" target="com.codecool.mediatheque.Model.Movie">
+      <point x="112.66666666666674" y="-184.0" />
+      <point x="367.92642450142444" y="1148.0" />
+      <point x="479.6875" y="1148.0" />
+      <point x="-22.375" y="40.0" />
+    </edge>
+    <edge source="com.codecool.mediatheque.Model.Movie" target="com.codecool.mediatheque.Model.MediaItem">
+      <point x="-44.75" y="-40.0" />
+      <point x="457.3125" y="984.0" />
+      <point x="411.79389499389504" y="984.0" />
+      <point x="0.0" y="196.0" />
+    </edge>
+    <edge source="com.codecool.mediatheque.View.ViewBrowser" target="com.codecool.mediatheque.View.MenuScreen">
+      <point x="0.0" y="-40.0" />
+      <point x="1917.6138736263733" y="1158.0" />
+      <point x="1905.3638736263733" y="1158.0" />
+      <point x="113.5" y="52.0" />
+    </edge>
+    <edge source="com.codecool.mediatheque.notification_system_lib.Notifier" target="com.codecool.mediatheque.notification_system_lib.NotificationDispatcher">
+      <point x="144.66666666666663" y="-52.0" />
+      <point x="1927.0952686202686" y="507.0" />
+      <point x="1904.9049552299552" y="507.0" />
+      <point x="-31.75" y="27.5" />
+    </edge>
+    <edge source="com.codecool.mediatheque.Model.ItemBuilder" target="com.codecool.mediatheque.Model.AudioBook">
+      <point x="-150.22222222222217" y="-184.0" />
+      <point x="105.03753561253552" y="1158.0" />
+      <point x="67.125" y="1158.0" />
+      <point x="-22.375" y="40.0" />
+    </edge>
+    <edge source="com.codecool.mediatheque.View.MenuScreen" target="com.codecool.mediatheque.notification_system_lib.Notification">
+      <point x="-181.60000000000008" y="-52.0" />
+      <point x="1610.2638736263732" y="984.0" />
+      <point x="1362.4888736263733" y="984.0" />
+      <point x="1362.4888736263733" y="359.0" />
+      <point x="1470.4111467236464" y="359.0" />
+      <point x="-68.20000000000005" y="64.0" />
+    </edge>
+    <edge source="com.codecool.mediatheque.Model.WarehouseTest" target="com.codecool.mediatheque.Model.ItemBuilder">
+      <point x="-64.57142857142844" y="-100.0" />
+      <point x="507.1341218966221" y="1586.0" />
+      <point x="255.2597578347577" y="1586.0" />
+      <point x="0.0" y="184.0" />
+    </edge>
+    <edge source="com.codecool.mediatheque.Model.Movie" target="com.codecool.mediatheque.Model.ItemBuilder">
+      <point x="22.375" y="40.0" />
+      <point x="524.4375" y="1158.0" />
+      <point x="405.48198005697986" y="1158.0" />
+      <point x="150.22222222222217" y="-184.0" />
+    </edge>
+    <edge source="com.codecool.mediatheque.Model.WarehouseTest" target="com.codecool.mediatheque.Model.AudioBook">
+      <point x="-96.85714285714289" y="-100.0" />
+      <point x="474.84840761090766" y="1596.0" />
+      <point x="43.07225783475769" y="1596.0" />
+      <point x="43.07225783475769" y="1158.0" />
+      <point x="22.375" y="1158.0" />
+      <point x="-67.125" y="40.0" />
+    </edge>
+    <edge source="com.codecool.mediatheque.Model.ItemBuilder" target="com.codecool.mediatheque.Model.MusicAlbum">
+      <point x="-37.55555555555543" y="-184.0" />
+      <point x="217.70420227920226" y="1158.0" />
+      <point x="233.3125" y="1158.0" />
+      <point x="-68.25" y="40.0" />
+    </edge>
+    <edge source="com.codecool.mediatheque.Controller.MainController" target="com.codecool.mediatheque.notification_system_lib.NotificationDispatcher">
+      <point x="105.83333333333337" y="-76.0" />
+      <point x="1415.3222069597066" y="1596.0" />
+      <point x="2195.378601953602" y="1596.0" />
+      <point x="2195.378601953602" y="507.0" />
+      <point x="2031.9049552299552" y="507.0" />
+      <point x="95.25" y="27.5" />
+    </edge>
+    <edge source="com.codecool.mediatheque.Controller.MainController" target="com.codecool.mediatheque.notification_system_lib.Notification">
+      <point x="21.166666666666686" y="-76.0" />
+      <point x="1330.65554029304" y="1596.0" />
+      <point x="1348.0625" y="1596.0" />
+      <point x="1348.0625" y="349.0" />
+      <point x="1402.2111467236466" y="349.0" />
+      <point x="-136.39999999999998" y="64.0" />
+    </edge>
+    <edge source="com.codecool.mediatheque.View.MenuScreen" target="com.codecool.mediatheque.notification_system_lib.NotificationDispatcher">
+      <point x="90.79999999999995" y="-52.0" />
+      <point x="1882.6638736263733" y="974.0" />
+      <point x="2009.9286019536019" y="974.0" />
+      <point x="2009.9286019536019" y="507.0" />
+      <point x="1968.4049552299552" y="507.0" />
+      <point x="31.75" y="27.5" />
+    </edge>
+    <edge source="com.codecool.mediatheque.Controller.MainController" target="com.codecool.mediatheque.Model.User">
+      <point x="-63.5" y="-76.0" />
+      <point x="1245.9888736263733" y="1586.0" />
+      <point x="1047.0625" y="1586.0" />
+      <point x="0.0" y="88.0" />
+    </edge>
+    <edge source="com.codecool.mediatheque.notification_system_lib.Notifier" target="com.codecool.mediatheque.notification_system_lib.Notification">
+      <point x="-144.66666666666663" y="-52.0" />
+      <point x="1637.761935286935" y="507.0" />
+      <point x="1744.6138736263733" y="507.0" />
+      <point x="1744.6138736263733" y="359.0" />
+      <point x="1606.8111467236465" y="359.0" />
+      <point x="68.19999999999993" y="64.0" />
+    </edge>
+    <edge source="com.codecool.mediatheque.Model.WarehouseTest" target="com.codecool.mediatheque.Model.Movie">
+      <point x="0.0" y="-100.0" />
+      <point x="571.7055504680505" y="1566.0" />
+      <point x="536.634121896622" y="1566.0" />
+      <point x="536.634121896622" y="1158.0" />
+      <point x="569.1875" y="1158.0" />
+      <point x="67.125" y="40.0" />
+    </edge>
+    <edge source="com.codecool.mediatheque.Model.Warehouse" target="com.codecool.mediatheque.Model.MediaItem">
+      <point x="72.75" y="-88.0" />
+      <point x="830.8125" y="1158.0" />
+      <point x="721.4702686202686" y="1158.0" />
+      <point x="721.4702686202686" y="944.0" />
+      <point x="555.3494505494507" y="944.0" />
+      <point x="143.55555555555566" y="196.0" />
+    </edge>
+    <edge source="com.codecool.mediatheque.Model.User" target="com.codecool.mediatheque.Model.UserRole">
+      <point x="-61.75" y="-88.0" />
+      <point x="985.3124999999999" y="1158.0" />
+      <point x="986.7111467236466" y="1158.0" />
+      <point x="-27.5" y="39.5" />
+    </edge>
+    <edge source="com.codecool.mediatheque.Model.MediaItem" target="com.codecool.mediatheque.Model.ItemStatus">
+      <point x="80.75" y="-196.0" />
+      <point x="492.54389499389504" y="507.0" />
+      <point x="442.54389499389504" y="507.0" />
+      <point x="30.75" y="51.5" />
+    </edge>
+    <edge source="com.codecool.mediatheque.notification_system_lib.Notification" target="com.codecool.mediatheque.notification_system_lib.NotificationCode">
+      <point x="85.25" y="-64.0" />
+      <point x="1623.8611467236465" y="176.0" />
+      <point x="1576.743894993895" y="176.0" />
+      <point x="54.75" y="75.5" />
+    </edge>
+    <edge source="com.codecool.mediatheque.View.MenuScreen" target="com.codecool.mediatheque.notification_system_lib.Notifier">
+      <point x="0.0" y="-52.0" />
+      <point x="1791.8638736263733" y="964.0" />
+      <point x="1890.9286019536019" y="964.0" />
+      <point x="108.5" y="52.0" />
+    </edge>
+    <edge source="com.codecool.mediatheque.Model.WarehouseTest" target="com.codecool.mediatheque.Model.MusicAlbum">
+      <point x="-32.28571428571422" y="-100.0" />
+      <point x="539.4198361823363" y="1576.0" />
+      <point x="434.7597578347577" y="1576.0" />
+      <point x="434.7597578347577" y="1128.0" />
+      <point x="369.8125" y="1128.0" />
+      <point x="68.25" y="40.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9" x="425.55555555555554" y="812.6666666666666" />
+  <SelectedNodes>
+    <node>com.codecool.mediatheque.Mediatheque</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
