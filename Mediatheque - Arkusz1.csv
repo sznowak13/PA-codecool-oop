@@ -1,0 +1,9 @@
+Story ID,Title,Desc,Tasks,Est
+1,Previewing media items,As A user I want to be able to preview any media item by selecting it.,,
+2,Editing Items,As a Manager I want to be able to edit existing Items.,"1. In MainMenuView add an option to edit an existing item by providing item id. It should be visible only for users of role MANAGER.
+2. ",
+3,Adding/removing,As a manager I want to be able to add new items to the app and remove old ones.,"1. In MainMenuView add a option to add new item that sends ADD_NEW_ITEM notification to the controller and another option to remove item (sending REMOVE_ITEM notification with id of item to delete). It should be visible only for users of role MANAGER.
+2.  Write a method in MainController that handles ADD_NEW_ITEM notification - it should change the view for asking inputs from the user about the new item data and pass them to logic layer.
+3. Write a method in MainController that handles REMOVE_ITEM notification - it should take an id from notification data and pass it to logic layer.
+4. Implement adding new Item in the warehouse.
+5. Implement removing item method - it should take an id and remove an item from the warehouse based on that id.",
